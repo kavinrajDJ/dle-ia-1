@@ -1,0 +1,55 @@
+==============================================
+       SIGN LANGUAGE PATTERN ASSOCIATION
+==============================================
+
+Training Data
+----------------------------------------------
+ Pattern_ID                            Image Hand_Pattern Command_Symbol
+          1 Screenshot 2026-09-04 175526.png    OPEN_HAND          HELLO
+          2 Screenshot 2026-09-04 175549.png         FIST           STOP
+          3 Screenshot 2026-09-04 175559.png    THUMBS_UP            YES
+          4 Screenshot 2026-09-04 175610.png  THUMBS_DOWN             NO
+          5 Screenshot 2026-09-04 175619.png   PEACE_SIGN          PEACE
+          6 Screenshot 2026-09-04 175640.png    OPEN_HAND          HELLO
+          7 Screenshot 2026-09-04 175646.png         FIST           STOP
+          8 Screenshot 2026-09-04 175658.png    THUMBS_UP            YES
+          9 Screenshot 2026-09-04 175704.png  THUMBS_DOWN             NO
+         10 Screenshot 2026-09-04 175714.png   PEACE_SIGN          PEACE
+
+Learned Associations
+----------------------------------------------
+OPEN_HAND -> HELLO
+FIST -> STOP
+THUMBS_UP -> YES
+THUMBS_DOWN -> NO
+PEACE_SIGN -> PEACE
+
+New Input
+----------------------------------------------
+Hand Pattern: OPEN_HAND
+
+Predicted Command:
+HELLO
+
+Expected Command:
+HELLO
+
+Association Status: CORRECT
+
+Incorrect Association Test
+----------------------------------------------
+Hand Pattern: OPEN_HAND
+Given Command: STOP
+Result: INCORRECT ASSOCIATION DETECTED
+
+==============================================
+                 FINAL RESULT
+==============================================
+Input Pattern : OPEN_HAND
+Command       : HELLO
+Status        : Association Successfully Identified
+
+Output image saved as:
+results/pattern_association.png
+
+Program completed successfully!
