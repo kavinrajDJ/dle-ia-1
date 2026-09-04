@@ -1,0 +1,1 @@
+This is a 'MOCK-UP' data created for Learning purpose only !!! and 'NO IMAGE' (classification/analysis/identification) is being done !!!
